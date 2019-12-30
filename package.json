@@ -1,0 +1,26 @@
+{
+  "name": "shared",
+  "version": "1.0.0",
+  "description": "Shared code used across projects in Data Science Platform repository",
+  "main": "./src/index.ts",
+  "dependencies": {
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write \"./**/*.ts\""
+  },
+  "lint-staged": {
+    "*.(tsx?|css|json)": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "author": "Leroy Korterink <s1106266@student.windesheim.nl> (https://leroy.dev)",
+  "license": "GNU AGPLv3"
+}
