@@ -1,7 +1,7 @@
 // Data exports
-export { default as Roles } from "./data/Role";
+export { default as Role } from "./data/Role";
 export { default as RoutePath } from "./data/RoutePath";
-export { default as Tag } from "./data/Tags";
+export { default as Tag } from "./data/Tag";
 
 // Utils
 export { default as isFlagged } from "./util/bitwise/isFlagged";
