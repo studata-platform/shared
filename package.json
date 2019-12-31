@@ -2,13 +2,14 @@
   "name": "shared",
   "version": "1.0.0",
   "description": "Shared code used across projects in Data Science Platform repository",
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
   "dependencies": {
     "lint-staged": "^9.2.5",
     "prettier": "^1.18.2",
     "typescript": "^3.7.3"
   },
   "scripts": {
+    "build": "tsc ./src/index.ts --outDir ./dist -declaration --declarationMap",
     "prettier": "prettier --write \"./**/*.ts\""
   },
   "lint-staged": {
