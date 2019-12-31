@@ -2,10 +2,11 @@
 exports.__esModule = true;
 var Role;
 (function (Role) {
-    Role[Role["None"] = 1] = "None";
-    Role[Role["Admin"] = 2] = "Admin";
-    Role[Role["Student"] = 4] = "Student";
-    Role[Role["Expert"] = 8] = "Expert";
-    Role[Role["Company"] = 16] = "Company";
+    Role[Role["Company"] = 1] = "Company";
+    Role[Role["Student"] = 2] = "Student";
+    Role[Role["Expert"] = 4] = "Expert";
+    Role[Role["Admin"] = 8] = "Admin";
+    Role[Role["Any"] = 15] = "Any";
+    Role[Role["Team"] = 6] = "Team";
 })(Role || (Role = {}));
 exports["default"] = Role;

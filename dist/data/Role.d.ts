@@ -1,9 +1,10 @@
 declare enum Role {
-    None = 1,
-    Admin = 2,
-    Student = 4,
-    Expert = 8,
-    Company = 16
+    Company = 1,
+    Student = 2,
+    Expert = 4,
+    Admin = 8,
+    Any = 15,
+    Team = 6
 }
 export default Role;
 //# sourceMappingURL=Role.d.ts.map
