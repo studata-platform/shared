@@ -6,12 +6,12 @@ export declare type IArticle = {
     slug: string;
     title: string;
     description: string;
-    tags: number;
-    image: IImage;
-    author?: IUser;
     target: number;
     minScore: number;
     maxScore: number;
+    tags: number;
+    image: IImage;
+    author?: IUser;
     richText: IRichText[];
     activity: IActivities[];
     publishDate: string;

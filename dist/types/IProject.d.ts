@@ -1,11 +1,12 @@
 import { IActivities } from "./IActivity";
 import { IRichText } from "./IRichText";
 import { IOrganization } from "./IOrganization";
+import { IUser } from "./IUser";
 export declare type IProject = {
     shortName: string;
     title: string;
     organizations: IOrganization[];
-    team: string[];
+    team: IUser[];
     attachments?: {
         name: string;
         location: string;
