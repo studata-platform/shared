@@ -4,6 +4,7 @@ export * from "./IEvent";
 export * from "./IImage";
 export * from "./ILink";
 export * from "./ILocation";
+export * from "./INotification";
 export * from "./IOrganization";
 export * from "./IProject";
 export * from "./IQuickscanQuestion";

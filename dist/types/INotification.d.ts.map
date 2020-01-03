@@ -1,0 +1,1 @@
+{"version":3,"file":"INotification.d.ts","sourceRoot":"","sources":["../../src/types/INotification.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,SAAS,CAAC;AAEhC,oBAAY,aAAa,GAAG;IAC1B,IAAI,EAAE,KAAK,CAAC;IACZ,OAAO,EAAE,MAAM,CAAC;IAChB,WAAW,EAAE,MAAM,CAAC;CACrB,CAAC"}
