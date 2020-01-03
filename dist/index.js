@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // Data exports
+var NotificationState_1 = require("./data/NotificationState");
+exports.NotificationState = NotificationState_1.default;
 var Role_1 = require("./data/Role");
 exports.Role = Role_1.default;
 var RoutePath_1 = require("./data/RoutePath");
