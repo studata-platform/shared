@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Role;
 (function (Role) {
     Role[Role["Company"] = 1] = "Company";
@@ -7,4 +9,4 @@ var Role;
     Role[Role["Any"] = 15] = "Any";
     Role[Role["Team"] = 6] = "Team";
 })(Role || (Role = {}));
-export default Role;
+exports.default = Role;

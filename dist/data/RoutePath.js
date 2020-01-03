@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var RoutePath;
 (function (RoutePath) {
     // Content pages
@@ -22,4 +24,4 @@ var RoutePath;
     RoutePath["Dashboard"] = "/dashboard";
     RoutePath["Settings"] = "/settings";
 })(RoutePath || (RoutePath = {}));
-export default RoutePath;
+exports.default = RoutePath;

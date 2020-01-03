@@ -1,10 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "lib": ["esnext"],
     "declaration": true,
     "declarationMap": true,
-    "module": "esnext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "none",
+    "moduleResolution": "node",
     "outDir": "./dist",
     "typeRoots": []
   },
