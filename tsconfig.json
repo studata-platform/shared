@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["esnext"],
+    "declaration": true,
+    "declarationMap": true,
+    "module": "esnext",
+    "outDir": "./dist",
+    "typeRoots": []
+  },
+  "files": ["./src/index.ts"]
+}

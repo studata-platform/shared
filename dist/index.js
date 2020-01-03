@@ -1,16 +1,8 @@
-"use strict";
-exports.__esModule = true;
 // Data exports
-var Role_1 = require("./data/Role");
-exports.Role = Role_1["default"];
-var RoutePath_1 = require("./data/RoutePath");
-exports.RoutePath = RoutePath_1["default"];
-var Tag_1 = require("./data/Tag");
-exports.Tag = Tag_1["default"];
+export { default as Role } from "./data/Role";
+export { default as RoutePath } from "./data/RoutePath";
+export { default as Tag } from "./data/Tag";
 // Utils
-var isFlagged_1 = require("./util/bitwise/isFlagged");
-exports.isFlagged = isFlagged_1["default"];
-var getFlaggedBits_1 = require("./util/bitwise/getFlaggedBits");
-exports.getFlaggedBits = getFlaggedBits_1["default"];
-var createPath_1 = require("./util/routing/createPath");
-exports.createPath = createPath_1["default"];
+export { default as isFlagged } from "./util/bitwise/isFlagged";
+export { default as getFlaggedBits } from "./util/bitwise/getFlaggedBits";
+export { default as createPath } from "./util/routing/createPath";

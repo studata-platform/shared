@@ -1,5 +1,3 @@
-"use strict";
-exports.__esModule = true;
 var Role;
 (function (Role) {
     Role[Role["Company"] = 1] = "Company";
@@ -9,4 +7,4 @@ var Role;
     Role[Role["Any"] = 15] = "Any";
     Role[Role["Team"] = 6] = "Team";
 })(Role || (Role = {}));
-exports["default"] = Role;
+export default Role;

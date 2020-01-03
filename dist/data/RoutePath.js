@@ -1,5 +1,3 @@
-"use strict";
-exports.__esModule = true;
 var RoutePath;
 (function (RoutePath) {
     // Content pages
@@ -24,4 +22,4 @@ var RoutePath;
     RoutePath["Dashboard"] = "/dashboard";
     RoutePath["Settings"] = "/settings";
 })(RoutePath || (RoutePath = {}));
-exports["default"] = RoutePath;
+export default RoutePath;

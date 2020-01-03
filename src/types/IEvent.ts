@@ -1,6 +1,6 @@
 import { ILink } from "./ILink";
-import { IActivities } from "./IActivity";
 import { IRichText } from "./IRichText";
+import { IActivities } from "./IActivity";
 
 export type IEvent = {
   slug: string;

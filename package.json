@@ -9,7 +9,7 @@
     "typescript": "^3.7.3"
   },
   "scripts": {
-    "build": "tsc ./src/index.ts --outDir ./dist --declaration --declarationMap",
+    "build": "tsc",
     "test": "jest",
     "test:watch": "jest --watch",
     "prettier": "prettier --write \"./**/*.ts\""

@@ -1,0 +1,1 @@
+{"version":3,"file":"IRichText.d.ts","sourceRoot":"","sources":["../../src/types/IRichText.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,KAAK,EAAE,MAAM,SAAS,CAAC;AAEhC;;GAEG;AACH,oBAAY,SAAS,GAAG;IAEtB,KAAK,EAAE,MAAM,CAAC;IAGd,MAAM,EAAE,KAAK,CAAC;IAGd,WAAW,EAAE,MAAM,CAAC;CACrB,CAAC"}

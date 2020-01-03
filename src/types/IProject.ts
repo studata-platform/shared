@@ -1,6 +1,6 @@
-import { IOrganization } from "./IOrganization";
+import { IActivities } from "./IActivity";
 import { IRichText } from "./IRichText";
-import { IActivity, IActivities } from "./IActivity";
+import { IOrganization } from "./IOrganization";
 
 export type IProject = {
   shortName: string;

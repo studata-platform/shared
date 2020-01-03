@@ -1,5 +1,5 @@
-import { IImage } from "./IImage";
 import { IUser } from "./IUser";
+import { IImage } from "./IImage";
 import { IRichText } from "./IRichText";
 import { IActivities } from "./IActivity";
 
