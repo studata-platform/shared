@@ -10,6 +10,8 @@
   },
   "scripts": {
     "build": "tsc ./src/index.ts --outDir ./dist --declaration --declarationMap",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "prettier": "prettier --write \"./**/*.ts\""
   },
   "lint-staged": {
@@ -19,5 +21,10 @@
     ]
   },
   "author": "Leroy Korterink <s1106266@student.windesheim.nl> (https://leroy.dev)",
-  "license": "GNU AGPLv3"
+  "license": "GNU AGPLv3",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0"
+  }
 }
