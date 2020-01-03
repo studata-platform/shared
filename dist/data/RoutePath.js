@@ -10,13 +10,13 @@ var RoutePath;
     RoutePath["ArticleDetail"] = "/article/:slug";
     RoutePath["EventOverview"] = "/event";
     RoutePath["EventDetail"] = "/event/:slug";
-    // QuickScan
-    RoutePath["QuickScan"] = "/quickscan";
-    RoutePath["QuickScanOnboarding"] = "/quickscan/onboarding";
-    RoutePath["QuickScanQuestions"] = "/quickscan/questions";
-    RoutePath["QuickScanContactDetails"] = "/quickscan/contact-details";
-    RoutePath["QuickScanResult"] = "/quickscan/result";
-    RoutePath["QuickScanProfile"] = "/quickscan-profile/:uuid";
+    // Quickscan
+    RoutePath["Quickscan"] = "/quickscan";
+    RoutePath["QuickscanOnboarding"] = "/quickscan/onboarding";
+    RoutePath["QuickscanQuestions"] = "/quickscan/questions";
+    RoutePath["QuickscanContactDetails"] = "/quickscan/contact-details";
+    RoutePath["QuickscanResult"] = "/quickscan/result";
+    RoutePath["QuickscanProfile"] = "/quickscan-profile/:uuid";
     // Account
     RoutePath["Signin"] = "/signin";
     RoutePath["ForgetPassword"] = "/forget-password";

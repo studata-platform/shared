@@ -10,13 +10,13 @@ enum RoutePath {
   EventOverview = "/event",
   EventDetail = "/event/:slug",
 
-  // QuickScan
-  QuickScan = "/quickscan",
-  QuickScanOnboarding = "/quickscan/onboarding",
-  QuickScanQuestions = "/quickscan/questions",
-  QuickScanContactDetails = "/quickscan/contact-details",
-  QuickScanResult = "/quickscan/result",
-  QuickScanProfile = "/quickscan-profile/:uuid",
+  // Quickscan
+  Quickscan = "/quickscan",
+  QuickscanOnboarding = "/quickscan/onboarding",
+  QuickscanQuestions = "/quickscan/questions",
+  QuickscanContactDetails = "/quickscan/contact-details",
+  QuickscanResult = "/quickscan/result",
+  QuickscanProfile = "/quickscan-profile/:uuid",
 
   // Account
   Signin = "/signin",
