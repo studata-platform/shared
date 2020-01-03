@@ -1,4 +1,6 @@
 import { IOrganization } from "./IOrganization";
+import { IRichText } from "./IRichText";
+import { IActivity, IActivities } from "./IActivity";
 
 export type IProject = {
   shortName: string;
@@ -9,15 +11,10 @@ export type IProject = {
     name: string;
     location: string;
   }[];
-  body?: {
-    nodes: string;
-    createdDate: string;
-  }[];
   duration?: {
     startDate: string;
     endDate: string;
   };
-  lastActivityDate: string;
-  createdDate: string;
-  updatedDate: string;
+  body?: IRichText;
+  activity: IActivities;
 };

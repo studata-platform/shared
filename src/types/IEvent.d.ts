@@ -1,10 +1,13 @@
 import { ILink } from "./ILink";
+import { IActivities } from "./IActivity";
+import { IRichText } from "./IRichText";
 
 export type IEvent = {
   slug: string;
   color: string;
   startDate: string;
   title: string;
-  description: string;
   link?: ILink;
+  richText: IRichText[];
+  activity: IActivities;
 };
