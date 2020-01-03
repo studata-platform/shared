@@ -1,7 +1,7 @@
 declare enum NotificationState {
-    UNREAD = 0,
-    READ = 1,
-    ARCHIVED = 2
+    Unread = 1,
+    Read = 2,
+    Archived = 4
 }
 export default NotificationState;
 //# sourceMappingURL=NotificationState.d.ts.map
