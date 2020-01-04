@@ -3,6 +3,7 @@ import { IRichText } from "./IRichText";
 import { IOrganization } from "./IOrganization";
 import { IUser } from "./IUser";
 export declare type IProject = {
+    id: string;
     shortName: string;
     title: string;
     organizations: IOrganization[];

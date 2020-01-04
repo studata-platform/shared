@@ -1,9 +1,9 @@
 import { IUser } from "./IUser";
 export declare type IActivity = {
-    event: string;
+    id: string;
     resolver: string;
-    property: string;
-    author: IUser;
+    message: string;
+    user: IUser;
     createdDate: string;
 };
 /**

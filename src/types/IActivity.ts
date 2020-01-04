@@ -1,19 +1,17 @@
 import { IUser } from "./IUser";
 
 export type IActivity = {
-  // Name to describe the event (Should be uppercase, can only contain A-Z (uppercase) and _ characters)
-  event: string;
+  id: string;
 
-  // Name of the resolver in which the activity occured
+  // Name of the mutation resolver that handled the action
   resolver: string;
 
-  // Name of the property/properties that were updated
-  property: string;
+  // Message to clarify what the action entails
+  message: string;
 
-  // User that incurred the action
-  author: IUser;
+  // Reference to the User that incurred the action
+  user: IUser;
 
-  // ISO String created on the moment that this resources was added to the database
   createdDate: string;
 };
 
