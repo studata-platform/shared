@@ -6,14 +6,11 @@ export declare type IArticle = {
     slug: string;
     title: string;
     description: string;
-    target: number;
-    minScore: number;
-    maxScore: number;
-    tags: number;
     image: IImage;
     author?: IUser;
     richText: IRichText[];
     activity: IActivities[];
+    status: number;
     publishDate: string;
 };
 //# sourceMappingURL=IArticle.d.ts.map

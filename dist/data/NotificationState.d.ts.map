@@ -1,1 +1,1 @@
-{"version":3,"file":"NotificationState.d.ts","sourceRoot":"","sources":["../../src/data/NotificationState.ts"],"names":[],"mappings":"AAAA,aAAK,iBAAiB;IACpB,MAAM,IAAS;IACf,IAAI,IAAS;IACb,QAAQ,IAAS;CAClB;AAED,eAAe,iBAAiB,CAAC"}
+{"version":3,"file":"NotificationState.d.ts","sourceRoot":"","sources":["../../src/data/NotificationState.ts"],"names":[],"mappings":"AAAA,aAAK,iBAAiB;IACpB,MAAM,IAAI;IACV,IAAI,IAAS;IACb,QAAQ,IAAS;CAClB;AAED,eAAe,iBAAiB,CAAC"}

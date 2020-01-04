@@ -1,7 +1,7 @@
 enum NotificationState {
-  Unread = 1 << 0,
-  Read = 1 << 1,
-  Archived = 1 << 2
+  Unread = 0,
+  Read = 1 << 0,
+  Archived = 1 << 1
 }
 
 export default NotificationState;
