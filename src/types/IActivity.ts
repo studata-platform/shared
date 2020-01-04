@@ -1,7 +1,7 @@
 import { IUser } from "./IUser";
 
 export type IActivity = {
-  id: string;
+  id?: string;
 
   // Name of the mutation resolver that handled the action
   resolver: string;

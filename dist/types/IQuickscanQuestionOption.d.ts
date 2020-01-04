@@ -1,5 +1,5 @@
 export declare type IQuickscanQuestionOption = {
-    id: string;
+    id?: string;
     label: string;
     value: number;
     info?: string;

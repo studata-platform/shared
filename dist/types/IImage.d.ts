@@ -1,5 +1,5 @@
 export declare type IImage = {
-    id: string;
+    id?: string;
     src: string;
     alt: string;
     fallbackColor: string;

@@ -1,6 +1,6 @@
 import { IUser } from "./IUser";
 export declare type IActivity = {
-    id: string;
+    id?: string;
     resolver: string;
     message: string;
     user: IUser;

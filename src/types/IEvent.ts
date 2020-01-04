@@ -3,7 +3,7 @@ import { IRichText } from "./IRichText";
 import { IActivities } from "./IActivity";
 
 export type IEvent = {
-  id: string;
+  id?: string;
   slug: string;
   color: string;
   startDate: string;

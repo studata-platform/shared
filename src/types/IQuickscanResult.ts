@@ -1,4 +1,5 @@
 export type IQuickscanResult = {
+  id?: string;
   uuid: string;
   target: number;
   person: {

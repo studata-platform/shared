@@ -3,7 +3,7 @@ import { IImage } from "./IImage";
 import { IRichText } from "./IRichText";
 import { IActivities } from "./IActivity";
 export declare type IArticle = {
-    id: string;
+    id?: string;
     slug: string;
     title: string;
     description: string;

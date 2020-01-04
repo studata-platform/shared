@@ -1,6 +1,6 @@
 import { IQuickscanQuestionOption } from "./IQuickscanQuestionOption";
 export declare type IQuickscanQuestion = {
-    id: string;
+    id?: string;
     question: string;
     target: number;
     body: string;

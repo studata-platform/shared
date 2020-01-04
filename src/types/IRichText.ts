@@ -4,7 +4,7 @@ import { IUser } from "./IUser";
  * Versioned list to keep track of the changes in the rich text component
  */
 export type IRichText = {
-  id: string;
+  id?: string;
 
   // JSON string generated via SlateJS
   nodes: string;

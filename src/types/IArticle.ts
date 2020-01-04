@@ -4,7 +4,7 @@ import { IRichText } from "./IRichText";
 import { IActivities } from "./IActivity";
 
 export type IArticle = {
-  id: string;
+  id?: string;
   slug: string;
   title: string;
   description: string;
