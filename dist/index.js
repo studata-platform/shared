@@ -1,6 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 // Data exports
+var ArticleState_1 = require("./data/ArticleState");
+exports.ArticleState = ArticleState_1.default;
 var NotificationState_1 = require("./data/NotificationState");
 exports.NotificationState = NotificationState_1.default;
 var Role_1 = require("./data/Role");

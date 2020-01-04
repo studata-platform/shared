@@ -1,6 +1,7 @@
 export * from "./types/types";
 
 // Data exports
+export { default as ArticleState } from "./data/ArticleState";
 export { default as NotificationState } from "./data/NotificationState";
 export { default as Role } from "./data/Role";
 export { default as RoutePath } from "./data/RoutePath";
