@@ -1,5 +1,6 @@
 export * from "./types/types";
 export { default as ArticleState } from "./data/ArticleState";
+export { default as Event } from "./data/Event";
 export { default as NotificationState } from "./data/NotificationState";
 export { default as Role } from "./data/Role";
 export { default as RoutePath } from "./data/RoutePath";
