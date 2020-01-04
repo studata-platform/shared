@@ -1,1 +1,1 @@
-{"version":3,"file":"Event.d.ts","sourceRoot":"","sources":["../../src/data/Event.ts"],"names":[],"mappings":"AAAA,aAAK,KAAK;IACR,aAAa,mBAAmB;IAChC,aAAa,mBAAmB;IAChC,aAAa,mBAAmB;CACjC;AAED,eAAe,KAAK,CAAC"}
+{"version":3,"file":"Event.d.ts","sourceRoot":"","sources":["../../src/data/Event.ts"],"names":[],"mappings":"AAAA,aAAK,KAAK;IACR,aAAa,kBAAkB;IAC/B,aAAa,kBAAkB;IAC/B,aAAa,kBAAkB;CAChC;AAED,eAAe,KAAK,CAAC"}

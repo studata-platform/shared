@@ -1,7 +1,7 @@
 declare enum Event {
-    CreateArticle = "CREATE_ARTICLE",
-    UpdateArticle = "UPDATE_ARTICLE",
-    DeleteArticle = "DELETE_ARTICLE"
+    CreateArticle = "createArticle",
+    UpdateArticle = "updateArticle",
+    DeleteArticle = "deleteArticle"
 }
 export default Event;
 //# sourceMappingURL=Event.d.ts.map
