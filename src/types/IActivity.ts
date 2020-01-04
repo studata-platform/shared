@@ -1,10 +1,11 @@
 import { IUser } from "./IUser";
+import Event from "../data/Event";
 
 export type IActivity = {
-  id?: string;
+  id: string;
 
   // Name of the mutation resolver that handled the action
-  resolver: string;
+  event: Event;
 
   // Message to clarify what the action entails
   message: string;
@@ -13,6 +14,17 @@ export type IActivity = {
   user: IUser;
 
   createdDate: string;
+};
+
+export type IActivityInput = {
+  // Name of the mutation resolver that handled the action
+  event: Event;
+
+  // Message to clarify what the action entails
+  message?: string;
+
+  // Reference to the User that incurred the action
+  user: string;
 };
 
 /**
