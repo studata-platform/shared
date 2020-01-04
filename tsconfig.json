@@ -12,7 +12,7 @@
     "module": "none",
     "moduleResolution": "node",
     "outDir": "./dist",
-    "typeRoots": []
+    "types": ["jest", "node"]
   },
   "files": ["./src/index.ts"]
 }

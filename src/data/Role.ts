@@ -2,10 +2,12 @@ enum Role {
   Company = 1 << 0,
   Student = 1 << 1,
   Expert = 1 << 2,
-  Admin = 1 << 3,
+  ContentEditor = 1 << 3,
 
-  Any = Admin | Student | Expert | Company,
-  Team = Student | Expert
+  Team = Student | Expert,
+
+  // Admin role is a union of all roles
+  Admin = Company | Student | Expert | ContentEditor
 }
 
 export default Role;

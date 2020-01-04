@@ -1,7 +1,7 @@
 import getFlaggedBits from "./getFlaggedBits";
 
 describe("getFlaggedBits", () => {
-  test("Should only return flags that are in bit", async () => {
+  it("Should only return flags that are in bit", async () => {
     const mockRoles = {
       role1: 1 << 0,
       role2: 1 << 1,
