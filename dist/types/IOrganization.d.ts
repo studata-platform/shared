@@ -8,4 +8,14 @@ export declare type IOrganization = {
     location?: ILocation;
     activity: IActivities;
 };
+export declare type ICreateOrganizationInput = {
+    name: string;
+    image?: IImage;
+    location?: ILocation;
+};
+export declare type IUpdateOrganizationInput = {
+    name?: string;
+    image?: IImage;
+    location?: ILocation;
+};
 //# sourceMappingURL=IOrganization.d.ts.map

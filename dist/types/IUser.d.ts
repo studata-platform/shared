@@ -1,3 +1,4 @@
+import { IActivities } from "./IActivity";
 export declare type IProvidedUser = {
     provider: string;
     id: string;
@@ -18,5 +19,6 @@ export declare type IProvidedUser = {
 export declare type IUser = IProvidedUser & {
     organizations: string[];
     role: number;
+    activity: IActivities;
 };
 //# sourceMappingURL=IUser.d.ts.map

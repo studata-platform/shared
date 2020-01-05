@@ -7,6 +7,7 @@ export * from "./ILocation";
 export * from "./INotification";
 export * from "./IOrganization";
 export * from "./IProject";
+export * from "./IProjectState";
 export * from "./IQuickscanQuestion";
 export * from "./IQuickscanQuestionOption";
 export * from "./IQuickscanResult";

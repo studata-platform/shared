@@ -1,17 +1,20 @@
-import { IUser } from "./IUser";
+import ArticleState from "../data/ArticleState";
+import { IActivities } from "./IActivity";
 import { IImage } from "./IImage";
 import { IRichText } from "./IRichText";
-import { IActivities } from "./IActivity";
+import { IUser } from "./IUser";
 
 export type IArticle = {
   id?: string;
+
   slug: string;
   title: string;
   description: string;
   image: IImage;
   author?: IUser;
   richText: IRichText[];
-  activity: IActivities;
-  status: number;
+  status: ArticleState;
   publishDate: string;
+
+  activity: IActivities;
 };

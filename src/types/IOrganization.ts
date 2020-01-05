@@ -9,3 +9,15 @@ export type IOrganization = {
   location?: ILocation;
   activity: IActivities;
 };
+
+export type ICreateOrganizationInput = {
+  name: string;
+  image?: IImage;
+  location?: ILocation;
+};
+
+export type IUpdateOrganizationInput = {
+  name?: string;
+  image?: IImage;
+  location?: ILocation;
+};

@@ -1,7 +1,8 @@
-import { IUser } from "./IUser";
+import ArticleState from "../data/ArticleState";
+import { IActivities } from "./IActivity";
 import { IImage } from "./IImage";
 import { IRichText } from "./IRichText";
-import { IActivities } from "./IActivity";
+import { IUser } from "./IUser";
 export declare type IArticle = {
     id?: string;
     slug: string;
@@ -10,8 +11,8 @@ export declare type IArticle = {
     image: IImage;
     author?: IUser;
     richText: IRichText[];
-    activity: IActivities;
-    status: number;
+    status: ArticleState;
     publishDate: string;
+    activity: IActivities;
 };
 //# sourceMappingURL=IArticle.d.ts.map
