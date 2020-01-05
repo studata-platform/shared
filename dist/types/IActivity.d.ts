@@ -3,13 +3,13 @@ import Event from "../data/Event";
 export declare type IActivity = {
     id: string;
     event: Event;
-    message: string;
+    data?: string;
     user: IUser;
     createdDate: string;
 };
 export declare type IActivityInput = {
     event: Event;
-    message?: string;
+    data?: string;
     user: string;
 };
 /**

@@ -7,8 +7,8 @@ export type IActivity = {
   // Name of the mutation resolver that handled the action
   event: Event;
 
-  // Message to clarify what the action entails
-  message: string;
+  // Data to clarify what was changed in the event
+  data?: string;
 
   // Reference to the User that incurred the action
   user: IUser;
@@ -21,7 +21,7 @@ export type IActivityInput = {
   event: Event;
 
   // Message to clarify what the action entails
-  message?: string;
+  data?: string;
 
   // Reference to the User that incurred the action
   user: string;
