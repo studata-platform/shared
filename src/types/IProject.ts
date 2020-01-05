@@ -13,8 +13,8 @@ export type IProject = {
   organizations: IOrganization[];
   team: IUser[];
   duration?: {
-    startDate: Date;
-    endDate: Date;
+    startDate: string;
+    endDate: string;
   };
   richText: IRichText[];
 
@@ -28,8 +28,8 @@ export type ICreateProjectInput = {
   organizations: IOrganization[];
   team: IUser[];
   duration?: {
-    startDate?: Date;
-    endDate?: Date;
+    startDate?: string;
+    endDate?: string;
   };
   richText?: IRichTextInput;
 };
@@ -39,8 +39,8 @@ export type IUpdateProjectInput = {
   title?: string;
   status?: string; // Reference to ProjectState
   duration?: {
-    startDate?: Date;
-    endDate?: Date;
+    startDate?: string;
+    endDate?: string;
   };
   richText?: IRichTextInput;
 };

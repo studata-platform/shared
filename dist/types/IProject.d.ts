@@ -11,8 +11,8 @@ export declare type IProject = {
     organizations: IOrganization[];
     team: IUser[];
     duration?: {
-        startDate: Date;
-        endDate: Date;
+        startDate: string;
+        endDate: string;
     };
     richText: IRichText[];
     activity: IActivities;
@@ -24,8 +24,8 @@ export declare type ICreateProjectInput = {
     organizations: IOrganization[];
     team: IUser[];
     duration?: {
-        startDate?: Date;
-        endDate?: Date;
+        startDate?: string;
+        endDate?: string;
     };
     richText?: IRichTextInput;
 };
@@ -34,8 +34,8 @@ export declare type IUpdateProjectInput = {
     title?: string;
     status?: string;
     duration?: {
-        startDate?: Date;
-        endDate?: Date;
+        startDate?: string;
+        endDate?: string;
     };
     richText?: IRichTextInput;
 };
