@@ -22,9 +22,6 @@ export type IActivityInput = {
 
   // Message to clarify what the action entails
   data?: string;
-
-  // Reference to the User that incurred the action
-  user: string;
 };
 
 /**
