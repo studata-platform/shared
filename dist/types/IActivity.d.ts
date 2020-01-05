@@ -10,7 +10,6 @@ export declare type IActivity = {
 export declare type IActivityInput = {
     event: Event;
     data?: string;
-    user: string;
 };
 /**
  * List of actions to keep track of the changes in a resources
