@@ -2,6 +2,7 @@ enum Resource {
   Activity = "Activity",
   Article = "Article",
   Event = "Event",
+  File = "File",
   Organization = "Organization",
   Page = "Page",
   Project = "Project",
