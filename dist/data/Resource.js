@@ -6,6 +6,7 @@ var Resource;
     Resource["Article"] = "Article";
     Resource["Event"] = "Event";
     Resource["Organization"] = "Organization";
+    Resource["Page"] = "Page";
     Resource["Project"] = "Project";
     Resource["ProjectState"] = "ProjectState";
     Resource["QuickscanQuestion"] = "QuickscanQuestion";

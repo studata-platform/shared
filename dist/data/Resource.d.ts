@@ -3,6 +3,7 @@ declare enum Resource {
     Article = "Article",
     Event = "Event",
     Organization = "Organization",
+    Page = "Page",
     Project = "Project",
     ProjectState = "ProjectState",
     QuickscanQuestion = "QuickscanQuestion",
