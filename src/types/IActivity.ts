@@ -1,5 +1,6 @@
 import { IUser } from "./IUser";
 import Event from "../data/Event";
+import Resource from "../data/Resource";
 
 export type IActivity = {
   id: string;
@@ -25,6 +26,12 @@ export type IActivity = {
 export type IActivityInput = {
   // Name of the mutation resolver that handled the action
   event: Event;
+
+  // Resource type that was updated
+  resourceType: Resource;
+
+  // Reference to the resource that was updated
+  resource: string;
 
   // Message to clarify what the action entails
   data?: string;

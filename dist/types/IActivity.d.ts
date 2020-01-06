@@ -1,5 +1,6 @@
 import { IUser } from "./IUser";
 import Event from "../data/Event";
+import Resource from "../data/Resource";
 export declare type IActivity = {
     id: string;
     event: Event;
@@ -11,6 +12,8 @@ export declare type IActivity = {
 };
 export declare type IActivityInput = {
     event: Event;
+    resourceType: Resource;
+    resource: string;
     data?: string;
 };
 /**
