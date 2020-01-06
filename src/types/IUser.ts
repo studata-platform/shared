@@ -1,4 +1,5 @@
 import { IActivities } from "./IActivity";
+import { IOrganization } from "./IOrganization";
 
 export type IProvidedUser = {
   provider: string; // The provider with which the user authenticated (facebook, twitter, etc.).
@@ -19,7 +20,7 @@ export type IProvidedUser = {
 };
 
 export type IUser = IProvidedUser & {
-  organizations: string[];
+  organizations: IOrganization[];
   role: number;
 
   activity: IActivities;

@@ -7,6 +7,12 @@ export type IActivity = {
   // Name of the mutation resolver that handled the action
   event: Event;
 
+  // Resource type that was updated
+  resourceType: string;
+
+  // Reference to the resource that was updated
+  resource: string;
+
   // Data to clarify what was changed in the event
   data?: string;
 

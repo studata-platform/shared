@@ -1,4 +1,5 @@
 import { IActivities } from "./IActivity";
+import { IOrganization } from "./IOrganization";
 export declare type IProvidedUser = {
     provider: string;
     id: string;
@@ -17,7 +18,7 @@ export declare type IProvidedUser = {
     }[];
 };
 export declare type IUser = IProvidedUser & {
-    organizations: string[];
+    organizations: IOrganization[];
     role: number;
     activity: IActivities;
 };

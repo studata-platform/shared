@@ -3,6 +3,8 @@ import Event from "../data/Event";
 export declare type IActivity = {
     id: string;
     event: Event;
+    resourceType: string;
+    resource: string;
     data?: string;
     user: IUser;
     createdDate: string;
