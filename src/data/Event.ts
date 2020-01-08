@@ -19,6 +19,11 @@ enum Event {
   UpdateProject = "updateProject",
   DeleteProject = "deleteProject",
 
+  // ProjectState
+  CreateProjectState = "createProjectState",
+  UpdateProjectState = "updateProjectState",
+  DeleteProjectState = "deleteProjectState",
+
   // User
   CreateUser = "createUser",
   UpdateUser = "updateUser",

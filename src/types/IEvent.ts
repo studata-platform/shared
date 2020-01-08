@@ -22,3 +22,11 @@ export type ICreateEventInput = {
   title: string;
   richText: IRichTextInput;
 };
+
+export type IUpdateEventInput = {
+  slug?: string;
+  color?: string;
+  startDate?: string;
+  title?: string;
+  richText?: IRichTextInput;
+};
