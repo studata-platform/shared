@@ -6,13 +6,13 @@ export type IActivity = {
   id: string;
 
   // Name of the mutation resolver that handled the action
-  event: Event;
+  mutation: string;
 
   // Resource type that was updated
-  resourceType: string;
+  model: string;
 
   // Reference to the resource that was updated
-  resource: string;
+  ref: string;
 
   // Data to clarify what was changed in the event
   data?: string;
@@ -25,13 +25,13 @@ export type IActivity = {
 
 export type IActivityInput = {
   // Name of the mutation resolver that handled the action
-  event: Event;
+  mutation: string;
 
   // Resource type that was updated
-  resourceType: Resource;
+  model: Resource;
 
   // Reference to the resource that was updated
-  resource: string;
+  ref: string;
 
   // Message to clarify what the action entails
   data?: string;

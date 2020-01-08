@@ -1,19 +1,18 @@
 import { IUser } from "./IUser";
-import Event from "../data/Event";
 import Resource from "../data/Resource";
 export declare type IActivity = {
     id: string;
-    event: Event;
-    resourceType: string;
-    resource: string;
+    mutation: string;
+    model: string;
+    ref: string;
     data?: string;
     user: IUser;
     createdDate: string;
 };
 export declare type IActivityInput = {
-    event: Event;
-    resourceType: Resource;
-    resource: string;
+    mutation: string;
+    model: Resource;
+    ref: string;
     data?: string;
 };
 /**

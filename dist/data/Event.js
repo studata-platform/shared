@@ -18,6 +18,10 @@ var Event;
     Event["CreateProject"] = "createProject";
     Event["UpdateProject"] = "updateProject";
     Event["DeleteProject"] = "deleteProject";
+    // ProjectState
+    Event["CreateProjectState"] = "createProjectState";
+    Event["UpdateProjectState"] = "updateProjectState";
+    Event["DeleteProjectState"] = "deleteProjectState";
     // User
     Event["CreateUser"] = "createUser";
     Event["UpdateUser"] = "updateUser";

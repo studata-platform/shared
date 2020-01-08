@@ -18,4 +18,11 @@ export declare type ICreateEventInput = {
     title: string;
     richText: IRichTextInput;
 };
+export declare type IUpdateEventInput = {
+    slug?: string;
+    color?: string;
+    startDate?: string;
+    title?: string;
+    richText?: IRichTextInput;
+};
 //# sourceMappingURL=IEvent.d.ts.map
