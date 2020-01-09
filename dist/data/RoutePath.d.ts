@@ -15,7 +15,10 @@ declare enum RoutePath {
     Signin = "/signin",
     ForgetPassword = "/forget-password",
     Dashboard = "/dashboard",
-    Settings = "/settings"
+    Profile = "/profile",
+    ProfilePreference = "/profile/preferences",
+    ProfileHistory = "/profile/history",
+    ProfileOrganizations = "/profile/organizations"
 }
 export default RoutePath;
 //# sourceMappingURL=RoutePath.d.ts.map

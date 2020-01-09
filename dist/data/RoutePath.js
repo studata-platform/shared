@@ -22,6 +22,9 @@ var RoutePath;
     RoutePath["ForgetPassword"] = "/forget-password";
     // Profile
     RoutePath["Dashboard"] = "/dashboard";
-    RoutePath["Settings"] = "/settings";
+    RoutePath["Profile"] = "/profile";
+    RoutePath["ProfilePreference"] = "/profile/preferences";
+    RoutePath["ProfileHistory"] = "/profile/history";
+    RoutePath["ProfileOrganizations"] = "/profile/organizations";
 })(RoutePath || (RoutePath = {}));
 exports.default = RoutePath;

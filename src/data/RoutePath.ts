@@ -24,7 +24,10 @@ enum RoutePath {
 
   // Profile
   Dashboard = "/dashboard",
-  Settings = "/settings"
+  Profile = "/profile",
+  ProfilePreference = "/profile/preferences",
+  ProfileHistory = "/profile/history",
+  ProfileOrganizations = "/profile/organizations"
 }
 
 export default RoutePath;
