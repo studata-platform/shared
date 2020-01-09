@@ -7,7 +7,7 @@ export type IOrganization = {
   name: string;
   image?: IImage;
   location?: ILocation;
-  activity: IActivities;
+  activities: IActivities;
 };
 
 export type ICreateOrganizationInput = {

@@ -6,7 +6,7 @@ export declare type IOrganization = {
     name: string;
     image?: IImage;
     location?: ILocation;
-    activity: IActivities;
+    activities: IActivities;
 };
 export declare type ICreateOrganizationInput = {
     name: string;

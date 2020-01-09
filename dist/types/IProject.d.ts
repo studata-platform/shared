@@ -15,7 +15,7 @@ export declare type IProject = {
         endDate: string;
     };
     richText: IRichText[];
-    activity: IActivities;
+    activities: IActivities;
 };
 export declare type ICreateProjectInput = {
     shortName: string;

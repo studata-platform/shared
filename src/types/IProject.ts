@@ -18,7 +18,7 @@ export type IProject = {
   };
   richText: IRichText[];
 
-  activity: IActivities;
+  activities: IActivities;
 };
 
 export type ICreateProjectInput = {

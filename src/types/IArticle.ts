@@ -16,5 +16,5 @@ export type IArticle = {
   status: ArticleState;
   publishDate: string;
 
-  activity: IActivities;
+  activities: IActivities;
 };

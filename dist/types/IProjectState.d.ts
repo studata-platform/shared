@@ -5,7 +5,7 @@ export declare type IProjectState = {
     color: string;
     nextState?: IProjectState;
     rollbackState?: IProjectState;
-    activity: IActivities;
+    activities: IActivities;
 };
 export declare type ICreateProjectStateInput = {
     name: string;

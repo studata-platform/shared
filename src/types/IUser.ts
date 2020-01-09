@@ -23,5 +23,5 @@ export type IUser = IProvidedUser & {
   organizations: IOrganization[];
   role: number;
 
-  activity: IActivities;
+  activities: IActivities;
 };

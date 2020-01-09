@@ -20,6 +20,6 @@ export declare type IProvidedUser = {
 export declare type IUser = IProvidedUser & {
     organizations: IOrganization[];
     role: number;
-    activity: IActivities;
+    activities: IActivities;
 };
 //# sourceMappingURL=IUser.d.ts.map

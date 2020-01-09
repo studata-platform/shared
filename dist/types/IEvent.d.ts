@@ -9,7 +9,7 @@ export declare type IEvent = {
     title: string;
     link?: ILink;
     richText: IRichText[];
-    activity: IActivities;
+    activities: IActivities;
 };
 export declare type ICreateEventInput = {
     slug: string;

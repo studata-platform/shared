@@ -13,6 +13,6 @@ export declare type IArticle = {
     richText: IRichText[];
     status: ArticleState;
     publishDate: string;
-    activity: IActivities;
+    activities: IActivities;
 };
 //# sourceMappingURL=IArticle.d.ts.map

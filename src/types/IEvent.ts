@@ -12,7 +12,7 @@ export type IEvent = {
   link?: ILink;
   richText: IRichText[];
 
-  activity: IActivities;
+  activities: IActivities;
 };
 
 export type ICreateEventInput = {

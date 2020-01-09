@@ -8,7 +8,7 @@ export type IProjectState = {
   nextState?: IProjectState; // The next state that the project can go to
   rollbackState?: IProjectState; // The state that the project may roll back to
 
-  activity: IActivities;
+  activities: IActivities;
 };
 
 export type ICreateProjectStateInput = {
