@@ -24,7 +24,7 @@ var RoutePath;
     // Profile
     RoutePath["Profile"] = "/profile";
     RoutePath["ProfilePreference"] = "/profile/preferences";
-    RoutePath["ProfileHistory"] = "/profile/history";
+    RoutePath["ProfileActivities"] = "/profile/activities";
     RoutePath["ProfileOrganizations"] = "/profile/organizations";
     // Profile
     RoutePath["Projects"] = "/project";

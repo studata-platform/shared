@@ -27,7 +27,7 @@ enum RoutePath {
   // Profile
   Profile = "/profile",
   ProfilePreference = "/profile/preferences",
-  ProfileHistory = "/profile/history",
+  ProfileActivities = "/profile/activities",
   ProfileOrganizations = "/profile/organizations",
 
   // Profile

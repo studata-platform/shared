@@ -16,7 +16,7 @@ declare enum RoutePath {
     Dashboard = "/dashboard",
     Profile = "/profile",
     ProfilePreference = "/profile/preferences",
-    ProfileHistory = "/profile/history",
+    ProfileActivities = "/profile/activities",
     ProfileOrganizations = "/profile/organizations",
     Projects = "/project",
     Project = "/project/:shortname"
