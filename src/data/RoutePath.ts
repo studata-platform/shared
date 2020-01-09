@@ -20,14 +20,19 @@ enum RoutePath {
 
   // Account
   Signin = "/signin",
-  ForgetPassword = "/forget-password",
+
+  // Dashboard
+  Dashboard = "/dashboard",
 
   // Profile
-  Dashboard = "/dashboard",
   Profile = "/profile",
   ProfilePreference = "/profile/preferences",
   ProfileHistory = "/profile/history",
-  ProfileOrganizations = "/profile/organizations"
+  ProfileOrganizations = "/profile/organizations",
+
+  // Profile
+  Projects = "/project",
+  Project = "/project/:shortname"
 }
 
 export default RoutePath;

@@ -19,12 +19,15 @@ var RoutePath;
     RoutePath["QuickscanProfile"] = "/quickscan-profile/:uuid";
     // Account
     RoutePath["Signin"] = "/signin";
-    RoutePath["ForgetPassword"] = "/forget-password";
-    // Profile
+    // Dashboard
     RoutePath["Dashboard"] = "/dashboard";
+    // Profile
     RoutePath["Profile"] = "/profile";
     RoutePath["ProfilePreference"] = "/profile/preferences";
     RoutePath["ProfileHistory"] = "/profile/history";
     RoutePath["ProfileOrganizations"] = "/profile/organizations";
+    // Profile
+    RoutePath["Projects"] = "/project";
+    RoutePath["Project"] = "/project/:shortname";
 })(RoutePath || (RoutePath = {}));
 exports.default = RoutePath;

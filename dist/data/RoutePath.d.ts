@@ -13,12 +13,13 @@ declare enum RoutePath {
     QuickscanResult = "/quickscan/result",
     QuickscanProfile = "/quickscan-profile/:uuid",
     Signin = "/signin",
-    ForgetPassword = "/forget-password",
     Dashboard = "/dashboard",
     Profile = "/profile",
     ProfilePreference = "/profile/preferences",
     ProfileHistory = "/profile/history",
-    ProfileOrganizations = "/profile/organizations"
+    ProfileOrganizations = "/profile/organizations",
+    Projects = "/project",
+    Project = "/project/:shortname"
 }
 export default RoutePath;
 //# sourceMappingURL=RoutePath.d.ts.map
