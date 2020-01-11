@@ -17,8 +17,6 @@ var RoutePath;
     RoutePath["QuickscanContactDetails"] = "/quickscan/contact-details";
     RoutePath["QuickscanResult"] = "/quickscan/result";
     RoutePath["QuickscanProfile"] = "/quickscan-profile/:uuid";
-    // Account
-    RoutePath["Signin"] = "/signin";
     // Dashboard
     RoutePath["Dashboard"] = "/dashboard";
     // Profile
@@ -26,8 +24,25 @@ var RoutePath;
     RoutePath["ProfilePreference"] = "/profile/preferences";
     RoutePath["ProfileActivities"] = "/profile/activities";
     RoutePath["ProfileOrganizations"] = "/profile/organizations";
-    // Profile
+    // Resources
+    // Articles = "/article",
+    // Article = "/article/:slug",
+    // Events = "/event",
+    // Event = "/event/:slug",
+    RoutePath["Organizations"] = "/organization";
+    RoutePath["Organization"] = "/organization/:id";
+    RoutePath["Pages"] = "/page";
+    RoutePath["Page"] = "/page/:slug";
     RoutePath["Projects"] = "/project";
     RoutePath["Project"] = "/project/:shortname";
+    RoutePath["ProjectStates"] = "/project-state";
+    RoutePath["ProjectState"] = "/project-state/:id";
+    RoutePath["Users"] = "/user";
+    RoutePath["User"] = "/user/:id";
+    // Misc
+    RoutePath["Signin"] = "/signin";
+    RoutePath["Signout"] = "/signin";
+    RoutePath["Activities"] = "/activities";
+    RoutePath["QuickscanResults"] = "/quickscan-results";
 })(RoutePath || (RoutePath = {}));
 exports.default = RoutePath;

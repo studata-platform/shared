@@ -18,9 +18,6 @@ enum RoutePath {
   QuickscanResult = "/quickscan/result",
   QuickscanProfile = "/quickscan-profile/:uuid",
 
-  // Account
-  Signin = "/signin",
-
   // Dashboard
   Dashboard = "/dashboard",
 
@@ -30,9 +27,27 @@ enum RoutePath {
   ProfileActivities = "/profile/activities",
   ProfileOrganizations = "/profile/organizations",
 
-  // Profile
+  // Resources
+  // Articles = "/article",
+  // Article = "/article/:slug",
+  // Events = "/event",
+  // Event = "/event/:slug",
+  Organizations = "/organization",
+  Organization = "/organization/:id",
+  Pages = "/page",
+  Page = "/page/:slug",
   Projects = "/project",
-  Project = "/project/:shortname"
+  Project = "/project/:shortname",
+  ProjectStates = "/project-state",
+  ProjectState = "/project-state/:id",
+  Users = "/user",
+  User = "/user/:id",
+
+  // Misc
+  Signin = "/signin",
+  Signout = "/signin",
+  Activities = "/activities",
+  QuickscanResults = "/quickscan-results"
 }
 
 export default RoutePath;
