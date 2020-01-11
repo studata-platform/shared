@@ -6,18 +6,18 @@ export type IOrganization = {
   id?: string;
   name: string;
   image?: IImage;
-  location?: ILocation;
+  locations: ILocation[];
   activities: IActivities;
 };
 
 export type ICreateOrganizationInput = {
   name: string;
   image?: IImage;
-  location?: ILocation;
+  locations?: ILocation[];
 };
 
 export type IUpdateOrganizationInput = {
   name?: string;
   image?: IImage;
-  location?: ILocation;
+  locations?: ILocation[];
 };
