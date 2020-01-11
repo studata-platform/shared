@@ -10,7 +10,7 @@ export declare type IOrganization = {
 };
 export declare type ICreateOrganizationInput = {
     name: string;
-    image?: IImage;
+    image: IImage;
     locations?: ILocation[];
 };
 export declare type IUpdateOrganizationInput = {

@@ -12,7 +12,7 @@ export type IOrganization = {
 
 export type ICreateOrganizationInput = {
   name: string;
-  image?: IImage;
+  image: IImage;
   locations?: ILocation[];
 };
 
