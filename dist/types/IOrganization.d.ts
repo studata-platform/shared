@@ -4,7 +4,7 @@ import { IActivities } from "./IActivity";
 export declare type IOrganization = {
     id?: string;
     name: string;
-    image?: IImage;
+    image: IImage;
     locations: ILocation[];
     activities: IActivities;
 };
