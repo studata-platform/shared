@@ -2,16 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var ArticleState_1 = require("./data/ArticleState");
 exports.ArticleState = ArticleState_1.default;
-var CmsRoute_1 = require("./data/CmsRoute");
-exports.CmsRoute = CmsRoute_1.default;
 var Event_1 = require("./data/Event");
 exports.Event = Event_1.default;
 var NotificationState_1 = require("./data/NotificationState");
 exports.NotificationState = NotificationState_1.default;
-var ProtectedRoute_1 = require("./data/ProtectedRoute");
-exports.ProtectedRoute = ProtectedRoute_1.default;
-var PublicRoute_1 = require("./data/PublicRoute");
-exports.PublicRoute = PublicRoute_1.default;
 var Resource_1 = require("./data/Resource");
 exports.Resource = Resource_1.default;
 var Role_1 = require("./data/Role");

@@ -1,9 +1,3 @@
-import PublicRoute from "../data/PublicRoute";
-import ProtectedRoute from "../data/ProtectedRoute";
-import CmsRoute from "../data/CmsRoute";
-
-export type Routes = PublicRoute | ProtectedRoute | CmsRoute;
-
 export * from "./IActivity";
 export * from "./IArticle";
 export * from "./IEvent";

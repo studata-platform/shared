@@ -1,5 +1,4 @@
-import { Routes } from "../../types/types";
-declare const createPath: (route: Routes, parameters: {
+declare const createPath: (route: string, parameters: {
     [name: string]: string;
 }) => string;
 export default createPath;

@@ -1,7 +1,6 @@
-import PublicRoute from "../data/PublicRoute";
 export declare type ILink = {
     id?: string;
-    href: PublicRoute | string;
+    href: string;
     children?: string;
     target?: "_self" | "_blank";
     title?: string;
