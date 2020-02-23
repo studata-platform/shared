@@ -1,5 +1,5 @@
-import RoutePath from "../../data/RoutePath";
-declare const createPath: (route: RoutePath, parameters: {
+import { Routes } from "../../types/types";
+declare const createPath: (route: Routes, parameters: {
     [name: string]: string;
 }) => string;
 export default createPath;

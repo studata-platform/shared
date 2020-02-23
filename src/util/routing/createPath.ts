@@ -1,9 +1,9 @@
-import RoutePath from "../../data/RoutePath";
+import { Routes } from "../../types/types";
 
-const createPath = (route: RoutePath, parameters: { [name: string]: string }) =>
+const createPath = (route: Routes, parameters: { [name: string]: string }) =>
   route.replace(
     /:[a-z0-9-]+/gi,
-    parameterKey => parameters[parameterKey.substr(1)]
+    (parameterKey: string) => parameters[parameterKey.substr(1)]
   );
 
 export default createPath;

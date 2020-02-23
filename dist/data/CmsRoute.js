@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var CmsRoute;
+(function (CmsRoute) {
+    CmsRoute["Articles"] = "/article";
+    CmsRoute["Article"] = "/article/:slug";
+    CmsRoute["Events"] = "/event";
+    CmsRoute["Event"] = "/event/:slug";
+    CmsRoute["Organizations"] = "/organization";
+    CmsRoute["Organization"] = "/organization/:id";
+    CmsRoute["Pages"] = "/page";
+    CmsRoute["Page"] = "/page/:slug";
+    CmsRoute["Projects"] = "/project";
+    CmsRoute["Project"] = "/project/:shortname";
+    CmsRoute["ProjectStates"] = "/project-state";
+    CmsRoute["ProjectState"] = "/project-state/:id";
+    CmsRoute["Users"] = "/user";
+    CmsRoute["User"] = "/user/:id";
+})(CmsRoute || (CmsRoute = {}));
+exports.default = CmsRoute;

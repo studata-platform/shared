@@ -1,7 +1,7 @@
-import RoutePath from "../data/RoutePath";
+import PublicRoute from "../data/PublicRoute";
 export declare type ILink = {
     id?: string;
-    href: RoutePath | string;
+    href: PublicRoute | string;
     children?: string;
     target?: "_self" | "_blank";
     title?: string;
